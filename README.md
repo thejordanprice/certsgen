@@ -5,7 +5,7 @@ An easy to use bash script I've create for implementing Lets Encrypt to many sys
 
 - [x] Linux Flavor
 - [x] Webserver that needs HTTPS.
-- [ ] [letsencrypt](https://letsencrypt.org)
+- [ ] [LetsEncrypt](https://letsencrypt.org)
 
 ### To-Do
 
@@ -15,7 +15,7 @@ An easy to use bash script I've create for implementing Lets Encrypt to many sys
 
 ### Usage
 
-1. Install [letsencrypt](https://letsencrypt.org) to your machine.
+1. Install [LetsEncrypt](https://letsencrypt.org) to your machine.
 2. Git clone this repository.
 3. cd to gencerts/.
 4. Edit the domain names in the config inside gencerts.sh.
