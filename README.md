@@ -56,7 +56,7 @@
 
     You can start your webserver.
 
-# Do you need help configuring the certificate now that its made?
+### Do you need help configuring the certificate now that its made?
 
 I wrote a blog post about using this with NGINX. You can find it [here](https://www.thejordanprice.com/2018/02/lets-encrypt-certbot-with-nginx.html).
 
