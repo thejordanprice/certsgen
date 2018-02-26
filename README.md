@@ -1,4 +1,4 @@
-![Logoish](https://i.imgur.com/dovIjLp.png)
+![Logoish](https://i.imgur.com/li8PoWR.png)
 **An easy to use bash script I've create for implementing Lets Encrypt to many systems. As if it wasn't already easy enough.**
 
 
