@@ -13,7 +13,7 @@
 
 - [x] Linux Flavor
 - [x] Webserver that needs HTTPS.
-- [ ] [LetsEncrypt](https://letsencrypt.org)
+- [ ] [Certbot](https://certbot.eff.org)
 
 ### To-Do
 
@@ -23,7 +23,7 @@
 
 ### Usage
 
-1. Install [LetsEncrypt](https://letsencrypt.org) to your machine.
+1. Install [Certbot](https://certbot.eff.org) to your machine.
 2. Git clone this repository.
 3. cd to gencerts/.
 4. Edit the domain names in the config inside gencerts.sh.
