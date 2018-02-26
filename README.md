@@ -50,6 +50,6 @@
 
 -- Then
 
-    ./gencerts
+    ./gencerts.sh
 
 You shouldn't have many issues :smile:
