@@ -4,10 +4,10 @@ function checkCertBot() {
   # check that certbot is installed
   if hash certbot 2>/dev/null;
     then
+      # this will eventually be more...
+      # arguments, certonly, renew, whatnot.
+      # nginx is you configured right and want 0 downtime.
       printf "certbot has been located\n";
-      # !! everything went well lets run this
-      # in the future i wouldn't mind some of this being
-      # arguments to the bash script (certonly and renew).
       sudo certbot certonly --standalone \
         -d 'example.com' \
         -d 'www.example.com' \
