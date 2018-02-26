@@ -8,6 +8,7 @@ An easy to use bash script I've create for implementing Lets Encrypt to many sys
 3. cd to gencerts/.
 4. Edit the domain names in the config inside gencerts.sh.
 5. The domain names listen in the config must have an A record pointing to that box.
-3. Run ./gencerts.sh
+6. All webservers on 80 and 443 must be stopped currently, then renabled after that.
+7. Run ./gencerts.sh
 
 You shouldn't have many issues :smile:
