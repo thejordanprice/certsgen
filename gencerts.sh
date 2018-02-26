@@ -8,7 +8,7 @@ function checkCertBot() {
       # arguments, certonly, renew, whatnot.
       # nginx is you configured right and want 0 downtime.
       printf "certbot has been located\n";
-      sudo certbot certonly --standalone \
+      sudo certbot certonly --rsa-key-size 4096 --standalone \
         -d 'example.com' \
         -d 'www.example.com' \
         -d 'www2.example.com' \
