@@ -23,32 +23,32 @@
 
 ### Usage
 
-- [ ] Install [Certbot](https://certbot.eff.org) to your machine.
+-- Install [Certbot](https://certbot.eff.org) to your machine.
 
     I hope you had it in you.
 
-- [ ] Git clone this repository.
+-- Git clone this repository.
 
     git clone https://github.com/thejordanprice/getcerts
 
-- [ ] Navigate to gencerts locally.
+-- Navigate to gencerts locally.
 
     cd gencerts
 
-- [ ] Edit the domain names in the config inside gencerts.sh.
+-- Edit the domain names in the config inside gencerts.sh.
 
     nano gencerts.sh
 
-- [ ] The domain names listen in the config must have an A record pointing to that box.
+-- The domain names listen in the config must have an A record pointing to that box.
 
     That will require a visit to a DNS nameserver of some sort.
     
-- [ ] All webservers on 80 and 443 must be stopped, then renabled after it runs. *only takes seconds...*
+-- All webservers on 80 and 443 must be stopped, then renabled after it runs. *only takes seconds...*
 
     sudo service apache2 stop
     sudo service nginx stop
 
-- [ ] Then
+-- Then
 
     ./gencerts
 
