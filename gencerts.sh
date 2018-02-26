@@ -5,6 +5,9 @@ function checkCertBot() {
   if hash certbot 2>/dev/null;
     then
       printf "certbot has been located\n";
+      # !! everything went well lets run this
+      # in the future i wouldn't mind some of this being
+      # arguments to the bash script (certonly and renew).
       sudo certbot certonly --standalone \
         -d 'example.com' \
         -d 'www.example.com' \
@@ -15,4 +18,5 @@ function checkCertBot() {
       exit
   fi
 }
+
 checkCertBot
