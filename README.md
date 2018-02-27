@@ -1,5 +1,6 @@
 ![Logoish](https://i.imgur.com/li8PoWR.png)
-**An easy to use bash script I've create for implementing Lets Encrypt to many systems. As if it wasn't already easy enough.**
+*An easy to use bash script I've create for creating Lets Encrypt certificates.*
+*As if it wasn't already easy enough.*
 
 
 [![GitHub issues](https://img.shields.io/github/issues/thejordanprice/gencerts.sh.svg)](https://github.com/thejordanprice/gencerts.sh/issues)
