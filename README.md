@@ -1,4 +1,4 @@
-![Logoish](https://i.imgur.com/li8PoWR.png)
+![Logoish](https://i.imgur.com/C3HSPIR.png)
 *An easy to use bash script I've create for creating Lets Encrypt certificates.*
 *As if it wasn't already easy enough.*
 
@@ -30,15 +30,15 @@
 
 -- Git clone this repository.
 
-    git clone https://github.com/thejordanprice/getcerts
+    git clone https://github.com/thejordanprice/certsgen
 
--- Navigate to gencerts locally.
+-- Navigate to certsgen locally.
 
-    cd gencerts
+    cd certsgen
 
--- Edit the domain names in the config inside gencerts.sh.
+-- Edit the domain names in the config inside certsgen.sh.
 
-    nano gencerts.sh
+    nano certsgen.sh
 
 -- The domain names listen in the config must have an A record pointing to that box.
 
@@ -51,7 +51,7 @@
 
 -- Then
 
-    ./gencerts.sh
+    ./certsgen.sh
 
 -- Finally
 
